@@ -17,7 +17,7 @@ export default function MyApp({ Component, emotionCache = clientSideEmotionCache
 	return (
 		<CacheProvider value={emotionCache}>
 			<Head>
-				<title>My page</title>
+				<title>Stock market simulation</title>
 				<meta name="viewport" content="initial-scale=1, width=device-width" />
 			</Head>
 			<ThemeProvider theme={theme}>
